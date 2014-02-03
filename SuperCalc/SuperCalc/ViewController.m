@@ -70,7 +70,7 @@
                 runningTotal = runningTotal + numberOnScreen;
                 break;
             case 5:
-                runningTotal = pow(runningTotal, numberOnScreen);
+                runningTotal = powf(runningTotal, numberOnScreen);
                 break;
             default:
                 break;
@@ -100,7 +100,7 @@
                 runningTotal = runningTotal + numberOnScreen;
                 break;
             case 5:
-                runningTotal = pow(runningTotal, numberOnScreen);
+                runningTotal = powf(runningTotal, numberOnScreen);
                 break;
             default:
                 break;
@@ -132,6 +132,9 @@
  * Returns the square root of the number currently on screen.
  */
 -(IBAction)squareRoot:(id)sender{
+    if (numberOnScreen == 0) {
+        numberOnScreen = runningTotal;
+    }
     numberOnScreen = sqrtf(numberOnScreen);
     [self updateScreen];
 }
@@ -139,6 +142,9 @@
  * Squares the number currently on screen.
  */
 -(IBAction)squareNumber:(id)sender{
+    if (numberOnScreen == 0) {
+        numberOnScreen = runningTotal;
+    }
     numberOnScreen = numberOnScreen * numberOnScreen;
     [self updateScreen];
 }
@@ -146,6 +152,9 @@
  * Cubes the number currently on screen.
  */
 -(IBAction)cubeNumber:(id)sender{
+    if (numberOnScreen == 0) {
+        numberOnScreen = runningTotal;
+    }
     numberOnScreen = numberOnScreen * numberOnScreen * numberOnScreen;
     [self updateScreen];
 }
@@ -153,9 +162,13 @@
  * Returns the inverse of the number currently on screen.
  */
 -(IBAction)inverseNumber:(id)sender{
+    if (numberOnScreen == 0) {
+        numberOnScreen = runningTotal;
+    }
     numberOnScreen = 1 / numberOnScreen;
     [self updateScreen];
 }
+
 /**
  * Update the value on the screen, moved to method to reduce repeated code.
  */
