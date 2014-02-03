@@ -69,6 +69,9 @@
             case 4:
                 runningTotal = runningTotal + numberOnScreen;
                 break;
+            case 5:
+                runningTotal = pow(runningTotal, numberOnScreen);
+                break;
             default:
                 break;
         }
@@ -95,6 +98,9 @@
                 break;
             case 4:
                 runningTotal = runningTotal + numberOnScreen;
+                break;
+            case 5:
+                runningTotal = pow(runningTotal, numberOnScreen);
                 break;
             default:
                 break;

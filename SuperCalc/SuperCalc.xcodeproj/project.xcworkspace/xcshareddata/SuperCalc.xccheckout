@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8F96B499-E7B7-4C91-ADE4-2DBB59BD0601</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SuperCalc</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>98AE410F-507B-4D79-B7F2-7757174CF06D</key>
+		<string>https://github.com/tylerstacey/4768.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SuperCalc/SuperCalc.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>98AE410F-507B-4D79-B7F2-7757174CF06D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tylerstacey/4768.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>98AE410F-507B-4D79-B7F2-7757174CF06D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>98AE410F-507B-4D79-B7F2-7757174CF06D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>4768</string>
+		</dict>
+	</array>
+</dict>
+</plist>
