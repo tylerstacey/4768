@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FDFF70418D0798A00BD60EF /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDFF70318D0798A00BD60EF /* Ball.m */; };
 		E100635818BB03B100FBE63B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E100635718BB03B100FBE63B /* Foundation.framework */; };
 		E100635A18BB03B100FBE63B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E100635918BB03B100FBE63B /* CoreGraphics.framework */; };
 		E100635C18BB03B100FBE63B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E100635B18BB03B100FBE63B /* UIKit.framework */; };
@@ -37,16 +38,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E100635418BB03B100FBE63B /* TemplateOpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplateOpenGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FDFF70218D0798A00BD60EF /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
+		2FDFF70318D0798A00BD60EF /* Ball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ball.m; sourceTree = "<group>"; };
+		E100635418BB03B100FBE63B /* TylersBouncingBalls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TylersBouncingBalls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E100635718BB03B100FBE63B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E100635918BB03B100FBE63B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E100635B18BB03B100FBE63B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E100635D18BB03B200FBE63B /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		E100635F18BB03B200FBE63B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		E100636318BB03B200FBE63B /* TemplateOpenGL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TemplateOpenGL-Info.plist"; sourceTree = "<group>"; };
+		E100636318BB03B200FBE63B /* TylersBouncingBalls-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TylersBouncingBalls-Info.plist"; sourceTree = "<group>"; };
 		E100636518BB03B200FBE63B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E100636718BB03B200FBE63B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E100636918BB03B200FBE63B /* TemplateOpenGL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TemplateOpenGL-Prefix.pch"; sourceTree = "<group>"; };
+		E100636918BB03B200FBE63B /* TylersBouncingBalls-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TylersBouncingBalls-Prefix.pch"; sourceTree = "<group>"; };
 		E100636A18BB03B200FBE63B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E100636B18BB03B200FBE63B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E100636E18BB03B200FBE63B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
@@ -54,9 +57,9 @@
 		E100637718BB03B200FBE63B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E100637818BB03B200FBE63B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E100637A18BB03B200FBE63B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E100638018BB03B200FBE63B /* TemplateOpenGLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemplateOpenGLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E100638018BB03B200FBE63B /* TylersBouncingBallsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TylersBouncingBallsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E100638118BB03B200FBE63B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		E100638918BB03B200FBE63B /* TemplateOpenGLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TemplateOpenGLTests-Info.plist"; sourceTree = "<group>"; };
+		E100638918BB03B200FBE63B /* TylersBouncingBallsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TylersBouncingBallsTests-Info.plist"; sourceTree = "<group>"; };
 		E100638B18BB03B200FBE63B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E100638D18BB03B200FBE63B /* TemplateOpenGLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateOpenGLTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,8 +103,8 @@
 		E100635518BB03B100FBE63B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E100635418BB03B100FBE63B /* TemplateOpenGL.app */,
-				E100638018BB03B200FBE63B /* TemplateOpenGLTests.xctest */,
+				E100635418BB03B100FBE63B /* TylersBouncingBalls.app */,
+				E100638018BB03B200FBE63B /* TylersBouncingBallsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,6 +133,8 @@
 				E100637818BB03B200FBE63B /* ViewController.m */,
 				E100637A18BB03B200FBE63B /* Images.xcassets */,
 				E100636218BB03B200FBE63B /* Supporting Files */,
+				2FDFF70218D0798A00BD60EF /* Ball.h */,
+				2FDFF70318D0798A00BD60EF /* Ball.m */,
 			);
 			path = TemplateOpenGL;
 			sourceTree = "<group>";
@@ -137,10 +142,10 @@
 		E100636218BB03B200FBE63B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E100636318BB03B200FBE63B /* TemplateOpenGL-Info.plist */,
+				E100636318BB03B200FBE63B /* TylersBouncingBalls-Info.plist */,
 				E100636418BB03B200FBE63B /* InfoPlist.strings */,
 				E100636718BB03B200FBE63B /* main.m */,
-				E100636918BB03B200FBE63B /* TemplateOpenGL-Prefix.pch */,
+				E100636918BB03B200FBE63B /* TylersBouncingBalls-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -157,7 +162,7 @@
 		E100638818BB03B200FBE63B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E100638918BB03B200FBE63B /* TemplateOpenGLTests-Info.plist */,
+				E100638918BB03B200FBE63B /* TylersBouncingBallsTests-Info.plist */,
 				E100638A18BB03B200FBE63B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -166,9 +171,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E100635318BB03B100FBE63B /* TemplateOpenGL */ = {
+		E100635318BB03B100FBE63B /* TylersBouncingBalls */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E100639118BB03B200FBE63B /* Build configuration list for PBXNativeTarget "TemplateOpenGL" */;
+			buildConfigurationList = E100639118BB03B200FBE63B /* Build configuration list for PBXNativeTarget "TylersBouncingBalls" */;
 			buildPhases = (
 				E100635018BB03B100FBE63B /* Sources */,
 				E100635118BB03B100FBE63B /* Frameworks */,
@@ -178,14 +183,14 @@
 			);
 			dependencies = (
 			);
-			name = TemplateOpenGL;
+			name = TylersBouncingBalls;
 			productName = TemplateOpenGL;
-			productReference = E100635418BB03B100FBE63B /* TemplateOpenGL.app */;
+			productReference = E100635418BB03B100FBE63B /* TylersBouncingBalls.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E100637F18BB03B200FBE63B /* TemplateOpenGLTests */ = {
+		E100637F18BB03B200FBE63B /* TylersBouncingBallsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E100639418BB03B200FBE63B /* Build configuration list for PBXNativeTarget "TemplateOpenGLTests" */;
+			buildConfigurationList = E100639418BB03B200FBE63B /* Build configuration list for PBXNativeTarget "TylersBouncingBallsTests" */;
 			buildPhases = (
 				E100637C18BB03B200FBE63B /* Sources */,
 				E100637D18BB03B200FBE63B /* Frameworks */,
@@ -196,9 +201,9 @@
 			dependencies = (
 				E100638618BB03B200FBE63B /* PBXTargetDependency */,
 			);
-			name = TemplateOpenGLTests;
+			name = TylersBouncingBallsTests;
 			productName = TemplateOpenGLTests;
-			productReference = E100638018BB03B200FBE63B /* TemplateOpenGLTests.xctest */;
+			productReference = E100638018BB03B200FBE63B /* TylersBouncingBallsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +220,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E100634F18BB03B100FBE63B /* Build configuration list for PBXProject "TemplateOpenGL" */;
+			buildConfigurationList = E100634F18BB03B100FBE63B /* Build configuration list for PBXProject "TylersBouncingBalls" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -228,8 +233,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E100635318BB03B100FBE63B /* TemplateOpenGL */,
-				E100637F18BB03B200FBE63B /* TemplateOpenGLTests */,
+				E100635318BB03B100FBE63B /* TylersBouncingBalls */,
+				E100637F18BB03B200FBE63B /* TylersBouncingBallsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FDFF70418D0798A00BD60EF /* Ball.m in Sources */,
 				E100637918BB03B200FBE63B /* ViewController.m in Sources */,
 				E100636C18BB03B200FBE63B /* AppDelegate.m in Sources */,
 				E100636818BB03B200FBE63B /* main.m in Sources */,
@@ -280,7 +286,7 @@
 /* Begin PBXTargetDependency section */
 		E100638618BB03B200FBE63B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E100635318BB03B100FBE63B /* TemplateOpenGL */;
+			target = E100635318BB03B100FBE63B /* TylersBouncingBalls */;
 			targetProxy = E100638518BB03B200FBE63B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -401,9 +407,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TemplateOpenGL/TemplateOpenGL-Prefix.pch";
-				INFOPLIST_FILE = "TemplateOpenGL/TemplateOpenGL-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TemplateOpenGL/TylersBouncingBalls-Prefix.pch";
+				INFOPLIST_FILE = "TemplateOpenGL/TylersBouncingBalls-Info.plist";
+				PRODUCT_NAME = TylersBouncingBalls;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -414,9 +420,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TemplateOpenGL/TemplateOpenGL-Prefix.pch";
-				INFOPLIST_FILE = "TemplateOpenGL/TemplateOpenGL-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TemplateOpenGL/TylersBouncingBalls-Prefix.pch";
+				INFOPLIST_FILE = "TemplateOpenGL/TylersBouncingBalls-Info.plist";
+				PRODUCT_NAME = TylersBouncingBalls;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -437,8 +443,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "TemplateOpenGLTests/TemplateOpenGLTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TemplateOpenGLTests/TylersBouncingBallsTests-Info.plist";
+				PRODUCT_NAME = TylersBouncingBallsTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -456,8 +462,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TemplateOpenGL/TemplateOpenGL-Prefix.pch";
-				INFOPLIST_FILE = "TemplateOpenGLTests/TemplateOpenGLTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TemplateOpenGLTests/TylersBouncingBallsTests-Info.plist";
+				PRODUCT_NAME = TylersBouncingBallsTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -466,7 +472,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E100634F18BB03B100FBE63B /* Build configuration list for PBXProject "TemplateOpenGL" */ = {
+		E100634F18BB03B100FBE63B /* Build configuration list for PBXProject "TylersBouncingBalls" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E100638F18BB03B200FBE63B /* Debug */,
@@ -475,7 +481,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E100639118BB03B200FBE63B /* Build configuration list for PBXNativeTarget "TemplateOpenGL" */ = {
+		E100639118BB03B200FBE63B /* Build configuration list for PBXNativeTarget "TylersBouncingBalls" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E100639218BB03B200FBE63B /* Debug */,
@@ -484,7 +490,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E100639418BB03B200FBE63B /* Build configuration list for PBXNativeTarget "TemplateOpenGLTests" */ = {
+		E100639418BB03B200FBE63B /* Build configuration list for PBXNativeTarget "TylersBouncingBallsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E100639518BB03B200FBE63B /* Debug */,
