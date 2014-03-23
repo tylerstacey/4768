@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6A8DE672-5407-40D6-84CB-C733390532A4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Bouncy Texture</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CC02C3CD-42E6-4E99-9DA9-7F7344FB6FFB</key>
+		<string>https://github.com/tylerstacey/4768.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Assignment3/978-1-4302-3840-9_Ch05/Chapter 5/BouncyTexture-without texture/Bouncy Texture.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CC02C3CD-42E6-4E99-9DA9-7F7344FB6FFB</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tylerstacey/4768.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CC02C3CD-42E6-4E99-9DA9-7F7344FB6FFB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CC02C3CD-42E6-4E99-9DA9-7F7344FB6FFB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>4768</string>
+		</dict>
+	</array>
+</dict>
+</plist>

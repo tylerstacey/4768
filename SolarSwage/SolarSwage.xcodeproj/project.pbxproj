@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F8E896A18DF079F003FC2D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8E896918DF079F003FC2D2 /* Foundation.framework */; };
+		2F8E896C18DF079F003FC2D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8E896B18DF079F003FC2D2 /* CoreGraphics.framework */; };
+		2F8E896E18DF079F003FC2D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8E896D18DF079F003FC2D2 /* UIKit.framework */; };
+		2F8E897018DF079F003FC2D2 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8E896F18DF079F003FC2D2 /* GLKit.framework */; };
+		2F8E897218DF079F003FC2D2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8E897118DF079F003FC2D2 /* OpenGLES.framework */; };
+		2F8E897818DF079F003FC2D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F8E897618DF079F003FC2D2 /* InfoPlist.strings */; };
+		2F8E897A18DF079F003FC2D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8E897918DF079F003FC2D2 /* main.m */; };
+		2F8E897E18DF079F003FC2D2 /* SolarSwageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8E897D18DF079F003FC2D2 /* SolarSwageDelegate.m */; };
+		2F8E898118DF079F003FC2D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F8E897F18DF079F003FC2D2 /* Main.storyboard */; };
+		2F8E898318DF079F003FC2D2 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2F8E898218DF079F003FC2D2 /* Shader.fsh */; };
+		2F8E898518DF079F003FC2D2 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2F8E898418DF079F003FC2D2 /* Shader.vsh */; };
+		2F8E898818DF079F003FC2D2 /* SolarSwageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8E898718DF079F003FC2D2 /* SolarSwageViewController.m */; };
+		2F8E898A18DF079F003FC2D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8E898918DF079F003FC2D2 /* Images.xcassets */; };
+		2F8E899118DF079F003FC2D2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8E899018DF079F003FC2D2 /* XCTest.framework */; };
+		2F8E899218DF079F003FC2D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8E896918DF079F003FC2D2 /* Foundation.framework */; };
+		2F8E899318DF079F003FC2D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8E896D18DF079F003FC2D2 /* UIKit.framework */; };
+		2F8E899B18DF079F003FC2D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F8E899918DF079F003FC2D2 /* InfoPlist.strings */; };
+		2F8E899D18DF079F003FC2D2 /* SolarSwageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8E899C18DF079F003FC2D2 /* SolarSwageTests.m */; };
+		2F8E89A918DF0BEF003FC2D2 /* Planet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8E89A818DF0BEF003FC2D2 /* Planet.m */; };
+		2F8E89AC18DF0C1A003FC2D2 /* SolarSwageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8E89AB18DF0C1A003FC2D2 /* SolarSwageController.m */; };
+		2FD76E3A18DF3A4100117CAC /* Earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FD76E3418DF3A4100117CAC /* Earth.png */; };
+		2FD76E3B18DF3A4100117CAC /* Mars.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FD76E3518DF3A4100117CAC /* Mars.png */; };
+		2FD76E3C18DF3A4100117CAC /* Mercury.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FD76E3618DF3A4100117CAC /* Mercury.png */; };
+		2FD76E3D18DF3A4100117CAC /* Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FD76E3718DF3A4100117CAC /* Moon.png */; };
+		2FD76E3E18DF3A4100117CAC /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FD76E3818DF3A4100117CAC /* Sun.png */; };
+		2FD76E3F18DF3A4100117CAC /* Venus.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FD76E3918DF3A4100117CAC /* Venus.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F8E899418DF079F003FC2D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F8E895E18DF079F003FC2D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F8E896518DF079F003FC2D2;
+			remoteInfo = SolarSwage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F8E896618DF079F003FC2D2 /* SolarSwage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarSwage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8E896918DF079F003FC2D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2F8E896B18DF079F003FC2D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2F8E896D18DF079F003FC2D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2F8E896F18DF079F003FC2D2 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		2F8E897118DF079F003FC2D2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2F8E897518DF079F003FC2D2 /* SolarSwage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SolarSwage-Info.plist"; sourceTree = "<group>"; };
+		2F8E897718DF079F003FC2D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F8E897918DF079F003FC2D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F8E897B18DF079F003FC2D2 /* SolarSwage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SolarSwage-Prefix.pch"; sourceTree = "<group>"; };
+		2F8E897C18DF079F003FC2D2 /* SolarSwageDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolarSwageDelegate.h; sourceTree = "<group>"; };
+		2F8E897D18DF079F003FC2D2 /* SolarSwageDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolarSwageDelegate.m; sourceTree = "<group>"; };
+		2F8E898018DF079F003FC2D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F8E898218DF079F003FC2D2 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		2F8E898418DF079F003FC2D2 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		2F8E898618DF079F003FC2D2 /* SolarSwageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolarSwageViewController.h; sourceTree = "<group>"; };
+		2F8E898718DF079F003FC2D2 /* SolarSwageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolarSwageViewController.m; sourceTree = "<group>"; };
+		2F8E898918DF079F003FC2D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2F8E898F18DF079F003FC2D2 /* SolarSwageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolarSwageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8E899018DF079F003FC2D2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2F8E899818DF079F003FC2D2 /* SolarSwageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SolarSwageTests-Info.plist"; sourceTree = "<group>"; };
+		2F8E899A18DF079F003FC2D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F8E899C18DF079F003FC2D2 /* SolarSwageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolarSwageTests.m; sourceTree = "<group>"; };
+		2F8E89A618DF0BC4003FC2D2 /* SolarSwage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolarSwage.h; sourceTree = "<group>"; };
+		2F8E89A718DF0BEF003FC2D2 /* Planet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Planet.h; sourceTree = "<group>"; };
+		2F8E89A818DF0BEF003FC2D2 /* Planet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Planet.m; sourceTree = "<group>"; };
+		2F8E89AA18DF0C1A003FC2D2 /* SolarSwageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolarSwageController.h; sourceTree = "<group>"; };
+		2F8E89AB18DF0C1A003FC2D2 /* SolarSwageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolarSwageController.m; sourceTree = "<group>"; };
+		2FD76E3418DF3A4100117CAC /* Earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Earth.png; path = ../../../Downloads/solar_textures/Earth.png; sourceTree = "<group>"; };
+		2FD76E3518DF3A4100117CAC /* Mars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mars.png; path = ../../../Downloads/solar_textures/Mars.png; sourceTree = "<group>"; };
+		2FD76E3618DF3A4100117CAC /* Mercury.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mercury.png; path = ../../../Downloads/solar_textures/Mercury.png; sourceTree = "<group>"; };
+		2FD76E3718DF3A4100117CAC /* Moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Moon.png; path = ../../../Downloads/solar_textures/Moon.png; sourceTree = "<group>"; };
+		2FD76E3818DF3A4100117CAC /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sun.png; path = ../../../Downloads/solar_textures/Sun.png; sourceTree = "<group>"; };
+		2FD76E3918DF3A4100117CAC /* Venus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Venus.png; path = ../../../Downloads/solar_textures/Venus.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F8E896318DF079F003FC2D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8E897218DF079F003FC2D2 /* OpenGLES.framework in Frameworks */,
+				2F8E896C18DF079F003FC2D2 /* CoreGraphics.framework in Frameworks */,
+				2F8E896E18DF079F003FC2D2 /* UIKit.framework in Frameworks */,
+				2F8E897018DF079F003FC2D2 /* GLKit.framework in Frameworks */,
+				2F8E896A18DF079F003FC2D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F8E898C18DF079F003FC2D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8E899118DF079F003FC2D2 /* XCTest.framework in Frameworks */,
+				2F8E899318DF079F003FC2D2 /* UIKit.framework in Frameworks */,
+				2F8E899218DF079F003FC2D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F8E895D18DF079F003FC2D2 = {
+			isa = PBXGroup;
+			children = (
+				2F8E897318DF079F003FC2D2 /* SolarSwage */,
+				2F8E899618DF079F003FC2D2 /* SolarSwageTests */,
+				2F8E896818DF079F003FC2D2 /* Frameworks */,
+				2F8E896718DF079F003FC2D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F8E896718DF079F003FC2D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F8E896618DF079F003FC2D2 /* SolarSwage.app */,
+				2F8E898F18DF079F003FC2D2 /* SolarSwageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F8E896818DF079F003FC2D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F8E896918DF079F003FC2D2 /* Foundation.framework */,
+				2F8E896B18DF079F003FC2D2 /* CoreGraphics.framework */,
+				2F8E896D18DF079F003FC2D2 /* UIKit.framework */,
+				2F8E896F18DF079F003FC2D2 /* GLKit.framework */,
+				2F8E897118DF079F003FC2D2 /* OpenGLES.framework */,
+				2F8E899018DF079F003FC2D2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F8E897318DF079F003FC2D2 /* SolarSwage */ = {
+			isa = PBXGroup;
+			children = (
+				2F8E897F18DF079F003FC2D2 /* Main.storyboard */,
+				2F8E898218DF079F003FC2D2 /* Shader.fsh */,
+				2F8E898418DF079F003FC2D2 /* Shader.vsh */,
+				2F8E898918DF079F003FC2D2 /* Images.xcassets */,
+				2F8E897C18DF079F003FC2D2 /* SolarSwageDelegate.h */,
+				2F8E897D18DF079F003FC2D2 /* SolarSwageDelegate.m */,
+				2F8E898618DF079F003FC2D2 /* SolarSwageViewController.h */,
+				2F8E898718DF079F003FC2D2 /* SolarSwageViewController.m */,
+				2F8E89A618DF0BC4003FC2D2 /* SolarSwage.h */,
+				2F8E89A718DF0BEF003FC2D2 /* Planet.h */,
+				2F8E89A818DF0BEF003FC2D2 /* Planet.m */,
+				2F8E89AA18DF0C1A003FC2D2 /* SolarSwageController.h */,
+				2F8E89AB18DF0C1A003FC2D2 /* SolarSwageController.m */,
+				2F8E897418DF079F003FC2D2 /* Supporting Files */,
+			);
+			path = SolarSwage;
+			sourceTree = "<group>";
+		};
+		2F8E897418DF079F003FC2D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FD76E3418DF3A4100117CAC /* Earth.png */,
+				2FD76E3518DF3A4100117CAC /* Mars.png */,
+				2FD76E3618DF3A4100117CAC /* Mercury.png */,
+				2FD76E3718DF3A4100117CAC /* Moon.png */,
+				2FD76E3818DF3A4100117CAC /* Sun.png */,
+				2FD76E3918DF3A4100117CAC /* Venus.png */,
+				2F8E897518DF079F003FC2D2 /* SolarSwage-Info.plist */,
+				2F8E897618DF079F003FC2D2 /* InfoPlist.strings */,
+				2F8E897918DF079F003FC2D2 /* main.m */,
+				2F8E897B18DF079F003FC2D2 /* SolarSwage-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F8E899618DF079F003FC2D2 /* SolarSwageTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F8E899C18DF079F003FC2D2 /* SolarSwageTests.m */,
+				2F8E899718DF079F003FC2D2 /* Supporting Files */,
+			);
+			path = SolarSwageTests;
+			sourceTree = "<group>";
+		};
+		2F8E899718DF079F003FC2D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F8E899818DF079F003FC2D2 /* SolarSwageTests-Info.plist */,
+				2F8E899918DF079F003FC2D2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F8E896518DF079F003FC2D2 /* SolarSwage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F8E89A018DF079F003FC2D2 /* Build configuration list for PBXNativeTarget "SolarSwage" */;
+			buildPhases = (
+				2F8E896218DF079F003FC2D2 /* Sources */,
+				2F8E896318DF079F003FC2D2 /* Frameworks */,
+				2F8E896418DF079F003FC2D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolarSwage;
+			productName = SolarSwage;
+			productReference = 2F8E896618DF079F003FC2D2 /* SolarSwage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F8E898E18DF079F003FC2D2 /* SolarSwageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F8E89A318DF079F003FC2D2 /* Build configuration list for PBXNativeTarget "SolarSwageTests" */;
+			buildPhases = (
+				2F8E898B18DF079F003FC2D2 /* Sources */,
+				2F8E898C18DF079F003FC2D2 /* Frameworks */,
+				2F8E898D18DF079F003FC2D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F8E899518DF079F003FC2D2 /* PBXTargetDependency */,
+			);
+			name = SolarSwageTests;
+			productName = SolarSwageTests;
+			productReference = 2F8E898F18DF079F003FC2D2 /* SolarSwageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F8E895E18DF079F003FC2D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Tyler Stacey";
+				TargetAttributes = {
+					2F8E898E18DF079F003FC2D2 = {
+						TestTargetID = 2F8E896518DF079F003FC2D2;
+					};
+				};
+			};
+			buildConfigurationList = 2F8E896118DF079F003FC2D2 /* Build configuration list for PBXProject "SolarSwage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F8E895D18DF079F003FC2D2;
+			productRefGroup = 2F8E896718DF079F003FC2D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F8E896518DF079F003FC2D2 /* SolarSwage */,
+				2F8E898E18DF079F003FC2D2 /* SolarSwageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F8E896418DF079F003FC2D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD76E3E18DF3A4100117CAC /* Sun.png in Resources */,
+				2FD76E3D18DF3A4100117CAC /* Moon.png in Resources */,
+				2FD76E3A18DF3A4100117CAC /* Earth.png in Resources */,
+				2F8E898518DF079F003FC2D2 /* Shader.vsh in Resources */,
+				2FD76E3B18DF3A4100117CAC /* Mars.png in Resources */,
+				2F8E898A18DF079F003FC2D2 /* Images.xcassets in Resources */,
+				2F8E898318DF079F003FC2D2 /* Shader.fsh in Resources */,
+				2FD76E3C18DF3A4100117CAC /* Mercury.png in Resources */,
+				2F8E897818DF079F003FC2D2 /* InfoPlist.strings in Resources */,
+				2FD76E3F18DF3A4100117CAC /* Venus.png in Resources */,
+				2F8E898118DF079F003FC2D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F8E898D18DF079F003FC2D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8E899B18DF079F003FC2D2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F8E896218DF079F003FC2D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8E898818DF079F003FC2D2 /* SolarSwageViewController.m in Sources */,
+				2F8E89AC18DF0C1A003FC2D2 /* SolarSwageController.m in Sources */,
+				2F8E897E18DF079F003FC2D2 /* SolarSwageDelegate.m in Sources */,
+				2F8E897A18DF079F003FC2D2 /* main.m in Sources */,
+				2F8E89A918DF0BEF003FC2D2 /* Planet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F8E898B18DF079F003FC2D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8E899D18DF079F003FC2D2 /* SolarSwageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F8E899518DF079F003FC2D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F8E896518DF079F003FC2D2 /* SolarSwage */;
+			targetProxy = 2F8E899418DF079F003FC2D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F8E897618DF079F003FC2D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F8E897718DF079F003FC2D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F8E897F18DF079F003FC2D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F8E898018DF079F003FC2D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F8E899918DF079F003FC2D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F8E899A18DF079F003FC2D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F8E899E18DF079F003FC2D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2F8E899F18DF079F003FC2D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F8E89A118DF079F003FC2D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SolarSwage/SolarSwage-Prefix.pch";
+				INFOPLIST_FILE = "SolarSwage/SolarSwage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2F8E89A218DF079F003FC2D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SolarSwage/SolarSwage-Prefix.pch";
+				INFOPLIST_FILE = "SolarSwage/SolarSwage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2F8E89A418DF079F003FC2D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SolarSwage.app/SolarSwage";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SolarSwage/SolarSwage-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SolarSwageTests/SolarSwageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2F8E89A518DF079F003FC2D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SolarSwage.app/SolarSwage";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SolarSwage/SolarSwage-Prefix.pch";
+				INFOPLIST_FILE = "SolarSwageTests/SolarSwageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F8E896118DF079F003FC2D2 /* Build configuration list for PBXProject "SolarSwage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8E899E18DF079F003FC2D2 /* Debug */,
+				2F8E899F18DF079F003FC2D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F8E89A018DF079F003FC2D2 /* Build configuration list for PBXNativeTarget "SolarSwage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8E89A118DF079F003FC2D2 /* Debug */,
+				2F8E89A218DF079F003FC2D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F8E89A318DF079F003FC2D2 /* Build configuration list for PBXNativeTarget "SolarSwageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8E89A418DF079F003FC2D2 /* Debug */,
+				2F8E89A518DF079F003FC2D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F8E895E18DF079F003FC2D2 /* Project object */;
+}

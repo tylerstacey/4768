@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>40D4EEC8-D1FB-4DFB-BAA9-825C9BA94B46</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OpenGLSolarSystem</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>89633E25-8470-4DCE-B0BA-1C9A7B8FA982</key>
+		<string>https://github.com/tylerstacey/4768.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Assignment3/978-1-4302-3840-9_Ch05/Chapter 5/OpenGLSolarSystem-with texture/OpenGLSolarSystem.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>89633E25-8470-4DCE-B0BA-1C9A7B8FA982</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tylerstacey/4768.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>89633E25-8470-4DCE-B0BA-1C9A7B8FA982</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>89633E25-8470-4DCE-B0BA-1C9A7B8FA982</string>
+			<key>IDESourceControlWCCName</key>
+			<string>4768</string>
+		</dict>
+	</array>
+</dict>
+</plist>
